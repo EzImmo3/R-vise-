@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Éditeur de questions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <main class="editor-container">
+    <h1>Éditeur de questions</h1>
+
+    <label>Matière :</label>
+    <input id="matiereInput" type="text" placeholder="maths" />
+
+    <label>ID du chapitre :</label>
+    <input id="chapitreInput" type="text" placeholder="second-degre" />
+
+    <label>Question :</label>
+    <textarea id="questionInput" rows="3"></textarea>
+
+    <label>Type :</label>
+    <select id="typeSelect">
+      <option value="qcm">QCM</option>
+      <option value="vrai_faux">Vrai/Faux</option>
+      <option value="multi">Multi-réponses</option>
+      <option value="trou">À trou</option>
+    </select>
+
+    <div id="qcmZone">
+      <label>Choix (un par ligne) :</label>
+      <textarea id="choicesInput" rows="4"></textarea>
+
+      <label>Index de la bonne réponse :</label>
+      <input id="reponseInput" type="number" />
+    </div>
+
+    <div id="vfZone" style="display:none;">
+      <label>Réponse :</label>
+      <select id="vfSelect">
+        <option value="true">Vrai</option>
+        <option value="false">Faux</option>
+      </select>
+    </div>
+
+    <div id="multiZone" style="display:none;">
+      <label>Choix :</label>
+      <textarea id="multiChoicesInput" rows="4"></textarea>
+
+      <label>Indices corrects (ex: 0,2) :</label>
+      <input id="multiReponsesInput" type="text" />
+    </div>
+
+    <label>Explication :</label>
+    <textarea id="explicationInput" rows="3"></textarea>
+
+    <button id="generateBtn">Générer</button>
+
+    <h2>Résultat :</h2>
+    <pre id="output"></pre>
+  </main>
+
+  <script src="editor.js"></script>
+</body>
+</html>

@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Révisions – Quiz</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="dark">
+<body class="light">
+  <main class="container fade-in">
 
-  <header class="app-header">
-    <button class="back-btn" id="backToChapters">← Chapitres</button>
-    <h1 id="chapTitre">Chapitre</h1>
-    <button id="themeToggle" class="icon-btn">🌙</button>
-  </header>
+    <button id="backToChapters" class="back-btn">← Chapitres</button>
 
-  <main class="app-main">
+    <div class="quiz-header">
+      <div id="matiereBadge" class="matiere-badge">
+        <span id="matiereIcon"></span>
+        <span id="matiereName"></span>
+      </div>
 
-    <div class="quiz-info">
-      <span id="questionIndex"></span>
-      <span id="scoreInfo"></span>
+      <div class="progress-wrapper">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <div id="levelInfo" class="level-info">Niveau : Débutant</div>
+      <div id="scoreInfo" class="score-info">Score : 0</div>
+      <div id="comboInfo" class="combo-info"></div>
     </div>
 
-    <div class="flip-card">
-      <div class="flip-card-inner" id="cardInner">
+    <div class="mode-selector">
+      <button data-mode="normal" class="mode-btn active">Normal</button>
+      <button data-mode="random" class="mode-btn">Aléatoire</button>
+      <button data-mode="exam" class="mode-btn">Examen</button>
+      <button data-mode="learning" class="mode-btn">Apprentissage</button>
+    </div>
 
-        <!-- Face avant : question -->
+    <div id="timer" class="timer hidden">Temps restant : <span id="timerValue">20:00</span></div>
+
+    <h2 id="chapTitre"></h2>
+    <p id="questionIndex"></p>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
         <div class="flip-card-front">
-          <h2 id="questionText"></h2>
+          <p id="questionText"></p>
           <div id="choicesContainer"></div>
         </div>
 
-        <!-- Face arrière : correction -->
         <div class="flip-card-back">
-          <h2>Correction</h2>
           <p id="correctionText"></p>
-          <button id="nextQuestionBtn" class="primary-btn">Question suivante</button>
+          <button id="nextQuestionBtn" class="next-btn">Question suivante</button>
         </div>
-
       </div>
     </div>
 
