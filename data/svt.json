@@ -1,0 +1,199 @@
+{
+  "matiere": "SVT",
+  "chapitres": [
+    {
+      "id": "cellule",
+      "titre": "La cellule",
+      "questions": [
+        {
+          "question": "La cellule est :",
+          "choix": ["L’unité de base du vivant", "Un organe", "Une molécule"],
+          "reponse": 0,
+          "type": "qcm",
+          "explication": "Toutes les formes de vie sont constituées de cellules."
+        },
+        {
+          "question": "L’ADN se trouve principalement dans :",
+          "choix": ["Le cytoplasme", "Le noyau", "La membrane"],
+          "reponse": 1,
+          "type": "qcm",
+          "explication": "Chez les eucaryotes, l’ADN est contenu dans le noyau."
+        },
+        {
+          "question": "Une cellule possède toujours un noyau.",
+          "type": "vrai_faux",
+          "vrai_faux": false,
+          "explication": "Les cellules procaryotes (comme les bactéries) n'ont pas de noyau."
+        },
+        {
+          "question": "Quels éléments sont présents dans une cellule eucaryote ?",
+          "choix": ["Noyau", "Mitochondries", "Paroi bactérienne"],
+          "type": "multi",
+          "reponses_multiples": [0, 1],
+          "explication": "La paroi bactérienne est propre aux procaryotes."
+        },
+        {
+          "question": "Complète : l’ADN est organisé en ___ dans le noyau.",
+          "type": "trou",
+          "explication": "L’ADN est organisé en chromosomes."
+        }
+      ]
+    },
+
+    {
+      "id": "genetique",
+      "titre": "Génétique et hérédité",
+      "questions": [
+        {
+          "question": "Un gène est :",
+          "choix": ["Une protéine", "Un segment d’ADN", "Une cellule"],
+          "reponse": 1,
+          "type": "qcm",
+          "explication": "Un gène est une portion d’ADN codant une information."
+        },
+        {
+          "question": "Les allèles sont :",
+          "choix": ["Des versions différentes d’un même gène", "Des cellules reproductrices", "Des mutations"],
+          "reponse": 0,
+          "type": "qcm",
+          "explication": "Un gène peut exister sous plusieurs formes appelées allèles."
+        },
+        {
+          "question": "Un caractère héréditaire dépend toujours d’un seul gène.",
+          "type": "vrai_faux",
+          "vrai_faux": false,
+          "explication": "Beaucoup de caractères sont polygéniques (dépendent de plusieurs gènes)."
+        },
+        {
+          "question": "Quels éléments sont transmis lors de la reproduction sexuée ?",
+          "choix": ["Les chromosomes", "Les protéines", "Les organites"],
+          "type": "multi",
+          "reponses_multiples": [0],
+          "explication": "Seul le matériel génétique est transmis."
+        },
+        {
+          "question": "Complète : une mutation est un changement dans la séquence de ___ .",
+          "type": "trou",
+          "explication": "Une mutation est un changement dans la séquence de l’ADN."
+        }
+      ]
+    },
+
+    {
+      "id": "ecosystemes",
+      "titre": "Écosystèmes et interactions",
+      "questions": [
+        {
+          "question": "Un écosystème est :",
+          "choix": ["Un ensemble d’êtres vivants uniquement", "Un milieu + les êtres vivants qui y vivent", "Un climat"],
+          "reponse": 1,
+          "type": "qcm",
+          "explication": "Un écosystème inclut le biotope (milieu) et la biocénose (êtres vivants)."
+        },
+        {
+          "question": "La photosynthèse permet aux plantes de produire :",
+          "choix": ["Du dioxygène", "Du glucose", "Les deux"],
+          "reponse": 2,
+          "type": "qcm",
+          "explication": "La photosynthèse produit du glucose et libère du dioxygène."
+        },
+        {
+          "question": "Les chaînes alimentaires montrent des relations de prédation.",
+          "type": "vrai_faux",
+          "vrai_faux": true,
+          "explication": "Elles représentent les relations alimentaires entre espèces."
+        },
+        {
+          "question": "Quels sont des facteurs abiotiques ?",
+          "choix": ["Température", "Humidité", "Prédateurs"],
+          "type": "multi",
+          "reponses_multiples": [0, 1],
+          "explication": "Les prédateurs sont des facteurs biotiques."
+        },
+        {
+          "question": "Complète : un producteur est un organisme capable de ___ .",
+          "type": "trou",
+          "explication": "Un producteur fabrique sa propre matière organique (photosynthèse)."
+        }
+      ]
+    },
+
+    {
+      "id": "corps-humain",
+      "titre": "Corps humain et santé",
+      "questions": [
+        {
+          "question": "Le cœur est un :",
+          "choix": ["Muscle", "Os", "Organe sensoriel"],
+          "reponse": 0,
+          "type": "qcm",
+          "explication": "Le cœur est un muscle creux qui pompe le sang."
+        },
+        {
+          "question": "Le système immunitaire sert à :",
+          "choix": ["Transporter l’oxygène", "Défendre l’organisme", "Produire des hormones"],
+          "reponse": 1,
+          "type": "qcm",
+          "explication": "Il protège contre les agents pathogènes."
+        },
+        {
+          "question": "Les globules blancs participent à la défense immunitaire.",
+          "type": "vrai_faux",
+          "vrai_faux": true,
+          "explication": "Ils détruisent les microbes et cellules infectées."
+        },
+        {
+          "question": "Quels éléments font partie du système respiratoire ?",
+          "choix": ["Poumons", "Trachée", "Reins"],
+          "type": "multi",
+          "reponses_multiples": [0, 1],
+          "explication": "Les reins appartiennent au système urinaire."
+        },
+        {
+          "question": "Complète : les nutriments passent dans le sang au niveau de l’___ .",
+          "type": "trou",
+          "explication": "L’absorption des nutriments se fait dans l’intestin grêle."
+        }
+      ]
+    },
+
+    {
+      "id": "terre",
+      "titre": "La Terre et le climat",
+      "questions": [
+        {
+          "question": "L’effet de serre est :",
+          "choix": ["Un phénomène naturel", "Un phénomène uniquement humain", "Un mythe"],
+          "reponse": 0,
+          "type": "qcm",
+          "explication": "L’effet de serre existe naturellement mais est amplifié par l’activité humaine."
+        },
+        {
+          "question": "Le principal gaz à effet de serre émis par l’homme est :",
+          "choix": ["CO₂", "O₂", "N₂"],
+          "reponse": 0,
+          "type": "qcm",
+          "explication": "Le dioxyde de carbone est le gaz le plus émis par les activités humaines."
+        },
+        {
+          "question": "Le climat de la Terre a toujours été stable.",
+          "type": "vrai_faux",
+          "vrai_faux": false,
+          "explication": "Le climat a connu de nombreuses variations au cours de l’histoire."
+        },
+        {
+          "question": "Quels phénomènes sont liés au réchauffement climatique ?",
+          "choix": ["Montée des eaux", "Fonte des glaces", "Augmentation du CO₂"],
+          "type": "multi",
+          "reponses_multiples": [0, 1, 2],
+          "explication": "Tous ces phénomènes sont liés au réchauffement global."
+        },
+        {
+          "question": "Complète : la couche d’ozone protège des rayons ___ .",
+          "type": "trou",
+          "explication": "Elle protège des rayons ultraviolets (UV)."
+        }
+      ]
+    }
+  ]
+}
