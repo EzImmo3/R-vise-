@@ -1,46 +1,29 @@
+/* ========================= */
+/* VARIABLES GLOBALES        */
+/* ========================= */
+
 :root {
-  --bg: #f9fafb;
-  --fg: #020617;
-  --card: #ffffff;
   --accent: #3b82f6;
   --accent-soft: rgba(59, 130, 246, 0.12);
-  --border: rgba(15, 23, 42, 0.08);
-}
 
-/* Thèmes matières */
-body.matiere-maths { --accent: #3b82f6; }
-body.matiere-physique { --accent: #8b5cf6; }
-body.matiere-ses { --accent: #22c55e; }
-body.matiere-svt { --accent: #14b8a6; }
-body.matiere-histoire { --accent: #ef4444; }
-body.matiere-francais { --accent: #ec4899; }
-body.matiere-culture { --accent: #eab308; }
-body.matiere-info { --accent: #06b6d4; }
-
-/* Dark / light */
-body.light {
+  /* Mode clair */
   --bg: #f9fafb;
   --fg: #020617;
   --card: #ffffff;
   --border: rgba(15, 23, 42, 0.08);
 }
+
+/* Mode sombre lisible */
 body.dark {
-  --bg: #020617;
-  --fg: #e5e7eb;
-  --card: #020617;
-  --border: rgba(148, 163, 184, 0.3);
+  --bg: #0f172a;          /* bleu nuit lisible */
+  --fg: #f1f5f9;          /* texte clair */
+  --card: #1e293b;        /* gris bleu foncé */
+  --border: rgba(255, 255, 255, 0.12);
 }
 
-/* Transition page */
-body.page-transition {
-  opacity: 0;
-  transform: translateX(10px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
-}
-body.page-loaded {
-  opacity: 1;
-  transform: translateX(0);
-}
+/* ========================= */
+/* RESET                     */
+/* ========================= */
 
 *,
 *::before,
@@ -50,12 +33,16 @@ body.page-loaded {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-    "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #e0f2fe 0, var(--bg) 40%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
   color: var(--fg);
   min-height: 100vh;
+  transition: background 0.25s ease, color 0.25s ease;
 }
+
+/* ========================= */
+/* CONTAINERS                */
+/* ========================= */
 
 main.container {
   max-width: 900px;
@@ -63,79 +50,74 @@ main.container {
   padding: 1.5rem;
 }
 
-/* Titres */
-h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-h2 {
-  margin-top: 1rem;
+/* ========================= */
+/* TITRES                    */
+/* ========================= */
+
+h1, h2, h3, h4 {
+  color: var(--fg);
 }
 
-/* Grilles */
+/* ========================= */
+/* GRILLES                   */
+/* ========================= */
+
 .matiere-grid,
 .chap-grid {
   display: grid;
   gap: 1rem;
 }
+
 .matiere-grid {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
+
 .chap-grid {
   grid-template-columns: 1fr;
 }
 
-/* Cartes matières / chapitres */
+/* ========================= */
+/* CARTES                    */
+/* ========================= */
+
 .matiere-card,
 .chap-card {
   border: 1px solid var(--border);
   background: var(--card);
   border-radius: 0.9rem;
   padding: 0.9rem 1rem;
-  text-align: left;
   cursor: pointer;
   font-size: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  transition: transform 0.12s ease, box-shadow 0.12s ease,
-    border-color 0.12s ease, background 0.12s ease;
+  transition: 0.15s ease;
+  color: var(--fg);
 }
+
 .matiere-card:hover,
 .chap-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
   border-color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 6%, var(--card));
+  background: var(--accent-soft);
 }
 
-/* Bouton retour */
-.back-btn {
-  border: none;
-  background: transparent;
-  color: var(--accent);
-  font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 0.5rem;
-}
+/* ========================= */
+/* BADGE MATIÈRE             */
+/* ========================= */
 
-/* Quiz header */
-.quiz-header {
-  display: grid;
-  gap: 0.4rem;
-  margin-bottom: 1rem;
-}
 .matiere-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   padding: 0.3rem 0.7rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  background: var(--accent-soft);
   color: var(--accent);
   font-weight: 600;
-  font-size: 0.9rem;
 }
+
+/* ========================= */
+/* PROGRESS BAR              */
+/* ========================= */
+
 .progress-wrapper {
   width: 100%;
   height: 6px;
@@ -143,29 +125,25 @@ h2 {
   border-radius: 999px;
   overflow: hidden;
 }
+
 .progress-bar {
   width: 0%;
   height: 100%;
   background: var(--accent);
   transition: width 0.25s ease;
 }
-.level-info,
-.score-info,
-.combo-info {
-  font-size: 0.9rem;
-}
-.combo-info {
-  color: #f97316;
-  font-weight: 600;
-}
 
-/* Modes */
+/* ========================= */
+/* MODE SELECTOR             */
+/* ========================= */
+
 .mode-selector {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
   margin-bottom: 0.8rem;
 }
+
 .mode-btn {
   border-radius: 999px;
   border: 1px solid var(--border);
@@ -173,27 +151,38 @@ h2 {
   padding: 0.25rem 0.7rem;
   font-size: 0.85rem;
   cursor: pointer;
+  color: var(--fg);
 }
+
 .mode-btn.active {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
 }
 
-/* Timer */
+/* ========================= */
+/* TIMER                     */
+/* ========================= */
+
 .timer {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: var(--fg);
 }
+
 .timer.hidden {
   display: none;
 }
 
-/* Flip card */
+/* ========================= */
+/* FLIP CARD                 */
+/* ========================= */
+
 .flip-card {
   perspective: 1200px;
 }
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -201,9 +190,11 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
+
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -216,52 +207,69 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  color: var(--fg);
 }
+
 .flip-card-back {
   transform: rotateY(180deg);
 }
 
-/* Question / choix */
+/* ========================= */
+/* QUESTIONS / CHOIX         */
+/* ========================= */
+
 #questionText {
   font-size: 1.05rem;
   font-weight: 600;
+  color: var(--fg);
 }
+
 #choicesContainer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
+
 .choice-btn {
   border-radius: 0.7rem;
   border: 1px solid var(--border);
   background: var(--card);
   padding: 0.5rem 0.7rem;
-  text-align: left;
   cursor: pointer;
   font-size: 0.95rem;
-  transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease,
-    background 0.1s ease;
+  color: var(--fg);
+  transition: 0.15s ease;
 }
+
 .choice-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
   border-color: var(--accent);
+  background: var(--accent-soft);
 }
+
 .choice-btn.selected {
   border-color: var(--accent);
   background: var(--accent-soft);
 }
+
 .validate-btn {
   align-self: flex-start;
   margin-top: 0.4rem;
 }
 
-/* Correction */
+/* ========================= */
+/* CORRECTION                */
+/* ========================= */
+
 #correctionText {
   font-size: 0.95rem;
+  color: var(--fg);
 }
 
-/* Next button */
+/* ========================= */
+/* NEXT BUTTON               */
+/* ========================= */
+
 .next-btn {
   align-self: flex-end;
   margin-top: auto;
@@ -274,52 +282,14 @@ h2 {
   font-weight: 600;
 }
 
-/* Editor */
-.editor-container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1.5rem;
-}
-.editor-container label {
-  display: block;
-  margin-top: 0.7rem;
-  margin-bottom: 0.2rem;
-  font-size: 0.9rem;
-}
-.editor-container input,
-.editor-container textarea,
-.editor-container select {
-  width: 100%;
-  border-radius: 0.6rem;
-  border: 1px solid var(--border);
-  padding: 0.4rem 0.6rem;
-  font-size: 0.9rem;
-  background: var(--card);
-  color: var(--fg);
-}
-.editor-container button {
-  margin-top: 1rem;
-  border-radius: 999px;
-  border: none;
-  background: var(--accent);
-  color: white;
-  padding: 0.5rem 1.2rem;
-  cursor: pointer;
-  font-weight: 600;
-}
-.editor-container pre {
-  background: #020617;
-  color: #e5e7eb;
-  padding: 0.8rem;
-  border-radius: 0.7rem;
-  font-size: 0.8rem;
-  overflow-x: auto;
-}
+/* ========================= */
+/* ANIMATIONS                */
+/* ========================= */
 
-/* Animations */
 .fade-in {
   animation: fadeIn 0.25s ease-out;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -331,7 +301,10 @@ h2 {
   }
 }
 
-/* Responsive */
+/* ========================= */
+/* RESPONSIVE                */
+/* ========================= */
+
 @media (max-width: 600px) {
   main.container {
     padding: 1rem;
