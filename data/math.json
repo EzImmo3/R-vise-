@@ -1,0 +1,292 @@
+{
+  "matiere": "Mathématiques (spé)",
+  "chapitres": [
+    {
+      "id": "fonctions",
+      "titre": "Fonctions (variations, représentations)",
+      "questions": [
+        {
+          "question": "Si une fonction est croissante sur un intervalle, alors :",
+          "choix": ["f(x1) < f(x2) si x1 < x2", "f(x1) = f(x2)", "f(x1) > f(x2)"],
+          "reponse": 0
+        },
+        {
+          "question": "La courbe représentative d’une fonction est tracée dans :",
+          "choix": ["Un tableau", "Un repère", "Un histogramme"],
+          "reponse": 1
+        },
+        {
+          "question": "Le tableau de variations permet de connaître :",
+          "choix": ["Les limites", "Les dérivées", "Les zones de croissance et décroissance"],
+          "reponse": 2
+        },
+        {
+          "question": "Une fonction est dite bornée si :",
+          "choix": ["Elle a un maximum et un minimum", "Elle est toujours positive", "Elle est linéaire"],
+          "reponse": 0
+        },
+        {
+          "question": "La notation f(a) désigne :",
+          "choix": ["L’image de a", "L’antécédent de a", "La dérivée en a"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "derivation",
+      "titre": "Dérivation (taux de variation, tangente)",
+      "questions": [
+        {
+          "question": "La dérivée d’une fonction représente :",
+          "choix": ["La pente de la tangente", "La surface sous la courbe", "La valeur maximale"],
+          "reponse": 0
+        },
+        {
+          "question": "Le taux de variation entre a et b est :",
+          "choix": ["f(b) - f(a)", "(f(b) - f(a)) / (b - a)", "f(a) / f(b)"],
+          "reponse": 1
+        },
+        {
+          "question": "La tangente en un point est :",
+          "choix": ["Une droite perpendiculaire", "Une droite parallèle à l’axe des ordonnées", "La droite qui approche la courbe au point"],
+          "reponse": 2
+        },
+        {
+          "question": "Si f’(x) > 0 alors f est :",
+          "choix": ["Croissante", "Décroissante", "Constante"],
+          "reponse": 0
+        },
+        {
+          "question": "La dérivée de x² est :",
+          "choix": ["x", "2x", "x²"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "second-degre",
+      "titre": "Fonctions du second degré",
+      "questions": [
+        {
+          "question": "Une fonction du second degré s’écrit :",
+          "choix": ["ax + b", "ax² + bx + c", "a/x"],
+          "reponse": 1
+        },
+        {
+          "question": "Le discriminant est :",
+          "choix": ["b² - 4ac", "a² + b²", "c² - ab"],
+          "reponse": 0
+        },
+        {
+          "question": "Si Δ > 0, l’équation ax² + bx + c = 0 a :",
+          "choix": ["Aucune solution", "Une solution", "Deux solutions"],
+          "reponse": 2
+        },
+        {
+          "question": "Le sommet de la parabole correspond à :",
+          "choix": ["Le minimum ou maximum", "L’intersection avec l’axe des ordonnées", "La dérivée seconde"],
+          "reponse": 0
+        },
+        {
+          "question": "La courbe d’une fonction du second degré est :",
+          "choix": ["Une droite", "Une parabole", "Un cercle"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "suites",
+      "titre": "Suites (arithmétiques et géométriques)",
+      "questions": [
+        {
+          "question": "Une suite arithmétique a pour raison :",
+          "choix": ["u(n+1) - u(n)", "u(n+1) / u(n)", "u(n)²"],
+          "reponse": 0
+        },
+        {
+          "question": "Une suite géométrique a pour raison :",
+          "choix": ["u(n+1) - u(n)", "u(n+1) / u(n)", "u(n) + u(n+1)"],
+          "reponse": 1
+        },
+        {
+          "question": "La formule explicite d’une suite arithmétique est :",
+          "choix": ["u0 + nr", "u0 × rⁿ", "u0 - nr"],
+          "reponse": 0
+        },
+        {
+          "question": "La formule explicite d’une suite géométrique est :",
+          "choix": ["u0 + nr", "u0 × rⁿ", "u0 / r"],
+          "reponse": 1
+        },
+        {
+          "question": "Si r > 1, une suite géométrique est :",
+          "choix": ["Croissante", "Décroissante", "Constante"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "probabilites",
+      "titre": "Probabilités",
+      "questions": [
+        {
+          "question": "La somme des probabilités d’un événement certain vaut :",
+          "choix": ["0", "1", "2"],
+          "reponse": 1
+        },
+        {
+          "question": "La probabilité d’un événement impossible est :",
+          "choix": ["0", "1", "0.5"],
+          "reponse": 0
+        },
+        {
+          "question": "Si deux événements sont indépendants :",
+          "choix": ["P(A∩B)=P(A)×P(B)", "P(A∩B)=P(A)+P(B)", "P(A∩B)=0"],
+          "reponse": 0
+        },
+        {
+          "question": "Une expérience aléatoire est :",
+          "choix": ["Prévisible", "Toujours déterministe", "Non prévisible"],
+          "reponse": 2
+        },
+        {
+          "question": "La probabilité d’un événement est toujours :",
+          "choix": ["Entre 0 et 1", "Supérieure à 1", "Négative"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "variables-aleatoires",
+      "titre": "Variables aléatoires",
+      "questions": [
+        {
+          "question": "Une variable aléatoire associe :",
+          "choix": ["Un nombre à chaque issue", "Une lettre à chaque issue", "Une couleur à chaque issue"],
+          "reponse": 0
+        },
+        {
+          "question": "L’espérance d’une variable aléatoire est :",
+          "choix": ["Une moyenne pondérée", "Une médiane", "Une variance"],
+          "reponse": 0
+        },
+        {
+          "question": "La variance mesure :",
+          "choix": ["La dispersion", "La moyenne", "La probabilité"],
+          "reponse": 0
+        },
+        {
+          "question": "Une loi uniforme signifie :",
+          "choix": ["Toutes les issues ont la même probabilité", "Une seule issue est possible", "La probabilité vaut 0"],
+          "reponse": 0
+        },
+        {
+          "question": "L’écart-type est :",
+          "choix": ["La racine de la variance", "La variance au carré", "La moyenne"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "equations-inequations",
+      "titre": "Équations et inéquations",
+      "questions": [
+        {
+          "question": "Résoudre une équation signifie :",
+          "choix": ["Trouver les solutions", "Tracer une courbe", "Calculer une dérivée"],
+          "reponse": 0
+        },
+        {
+          "question": "Une inéquation peut avoir :",
+          "choix": ["Une seule solution", "Un intervalle de solutions", "Aucune solution"],
+          "reponse": 1
+        },
+        {
+          "question": "Pour résoudre une inéquation, on peut utiliser :",
+          "choix": ["Un tableau de signes", "Une dérivée seconde", "Une intégrale"],
+          "reponse": 0
+        },
+        {
+          "question": "L’équation x + 3 = 7 a pour solution :",
+          "choix": ["3", "4", "10"],
+          "reponse": 1
+        },
+        {
+          "question": "Une équation du type ax + b = 0 a :",
+          "choix": ["Une solution unique", "Deux solutions", "Aucune solution"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "trigonometrie",
+      "titre": "Trigonométrie (cercle trigonométrique, cos/sin)",
+      "questions": [
+        {
+          "question": "Sur le cercle trigonométrique, le rayon vaut :",
+          "choix": ["1", "2", "0"],
+          "reponse": 0
+        },
+        {
+          "question": "cos(0) vaut :",
+          "choix": ["0", "1", "-1"],
+          "reponse": 1
+        },
+        {
+          "question": "sin(π/2) vaut :",
+          "choix": ["0", "1", "-1"],
+          "reponse": 1
+        },
+        {
+          "question": "cos²(x) + sin²(x) =",
+          "choix": ["0", "1", "2"],
+          "reponse": 1
+        },
+        {
+          "question": "Un angle de 180° correspond à :",
+          "choix": ["π/2", "π", "2π"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "vecteurs",
+      "titre": "Vecteurs et repérage dans le plan",
+      "questions": [
+        {
+          "question": "Un vecteur est défini par :",
+          "choix": ["Une direction, un sens, une norme", "Un point", "Une équation"],
+          "reponse": 0
+        },
+        {
+          "question": "La norme d’un vecteur correspond à :",
+          "choix": ["Sa longueur", "Sa direction", "Son angle"],
+          "reponse": 0
+        },
+        {
+          "question": "Deux vecteurs sont colinéaires si :",
+          "choix": ["Ils ont la même norme", "Ils ont la même direction", "Ils sont perpendiculaires"],
+          "reponse": 1
+        },
+        {
+          "question": "Le vecteur AB correspond à :",
+          "choix": ["B - A", "A + B", "A × B"],
+          "reponse": 0
+        },
+        {
+          "question": "Le repère orthonormé possède :",
+          "choix": ["Des axes perpendiculaires et unitaires", "Des axes parallèles", "Un seul axe"],
+          "reponse": 0
+        }
+      ]
+    }
+  ]
+}

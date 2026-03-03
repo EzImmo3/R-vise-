@@ -1,299 +1,236 @@
+/* ============================= */
+/* 🎨 SYSTÈME DE COULEURS */
+/* ============================= */
+
 :root {
-  --bg: #f3f4f6;
-  --bg-alt: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
-  --border: #e5e7eb;
+  --bg-light: #f5f7fa;
+  --bg-dark: #0d1117;
+
+  --text-light: #1f2937;
+  --text-dark: #e5e7eb;
+
+  --card-light: #ffffff;
+  --card-dark: #161b22;
+
+  --border-light: #e5e7eb;
+  --border-dark: #2d333b;
+
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
 }
 
+/* Mode clair */
+body.light {
+  --bg: var(--bg-light);
+  --text: var(--text-light);
+  --card: var(--card-light);
+  --border: var(--border-light);
+}
+
+/* Mode sombre */
 body.dark {
-  --bg: #020617;
-  --bg-alt: #0f172a;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --primary: #3b82f6;
-  --primary-hover: #60a5fa;
-  --border: #1f2937;
+  --bg: var(--bg-dark);
+  --text: var(--text-dark);
+  --card: var(--card-dark);
+  --border: var(--border-dark);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ============================= */
+/* 🌍 BASE */
+/* ============================= */
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
   transition: background 0.3s, color 0.3s;
 }
 
 h1, h2, h3 {
+  margin: 0 0 15px;
   color: var(--text);
 }
 
-/* TOPBAR */
+button {
+  font-family: inherit;
+}
 
-.topbar {
+/* ============================= */
+/* 🔝 HEADER */
+/* ============================= */
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 18px;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  z-index: 10;
-  background: var(--bg-alt);
-  border-bottom: 1px solid var(--border);
-  padding: 10px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  z-index: 20;
 }
 
-.logo {
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-
-nav {
-  display: flex;
-  gap: 8px;
-}
-
-.nav-link {
+.icon-btn, .back-btn {
   background: transparent;
-  border: none;
+  border: 1px solid var(--border);
   color: var(--text);
+  padding: 8px 12px;
+  border-radius: 10px;
   cursor: pointer;
-  padding: 6px 10px;
-  border-radius: 999px;
-  font-size: 0.95rem;
+  transition: 0.2s;
 }
 
-.nav-link:hover {
-  background: var(--border);
+.icon-btn:hover, .back-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-.icon-btn {
-  background: transparent;
-  border: none;
-  font-size: 1.4rem;
-  cursor: pointer;
+/* ============================= */
+/* 📱 PAGE PRINCIPALE */
+/* ============================= */
+
+.app-main {
+  padding: 20px;
 }
 
-/* APP */
-
-.app {
-  max-width: 900px;
-  margin: 20px auto 40px;
-  padding: 0 16px;
-}
-
-.screen {
-  display: none;
-}
-
-.screen.active {
-  display: block;
-}
-
-.subtitle {
-  color: var(--muted);
-  margin-bottom: 16px;
-}
-
-.note {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-/* CARDS */
-
-.card {
-  background: var(--bg-alt);
-  border-radius: 16px;
-  padding: 16px 18px;
-  border: 1px solid var(--border);
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
-}
-
-.big-card {
-  margin: 16px 0;
-}
-
-/* BUTTONS */
-
-.primary-btn,
-.secondary-btn {
-  display: inline-block;
-  padding: 10px 18px;
-  border-radius: 999px;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  margin-top: 12px;
-}
-
-.primary-btn {
-  background: var(--primary);
-  color: #fff;
-}
-
-.primary-btn:disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-
-.primary-btn:hover:not(:disabled) {
-  background: var(--primary-hover);
-}
-
-.secondary-btn {
-  background: transparent;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-}
-
-.secondary-btn:hover {
-  background: var(--primary);
-  color: #fff;
-}
-
-/* GRID */
-
-.grid {
+.grid-matieres,
+.grid-chapitres {
   display: grid;
+  gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
-  margin: 16px 0;
 }
 
-/* THEMES */
+/* ============================= */
+/* 📘 CARTES MATIÈRES / CHAPITRES */
+/* ============================= */
 
-.theme-card {
-  background: var(--bg-alt);
+.matiere-card,
+.chap-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 18px;
   border-radius: 16px;
-  padding: 14px 16px;
-  border: 1px solid var(--border);
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.25s;
 }
 
-.theme-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+.matiere-card:hover,
+.chap-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-.theme-card.selected {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
-}
+/* ============================= */
+/* 🧠 QUIZ */
+/* ============================= */
 
-/* DIFFICULTÉ */
-
-.difficulty-list {
+.quiz-info {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 4px;
-}
-
-.difficulty-btn {
-  padding: 8px 14px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg-alt);
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
-.difficulty-btn.selected {
-  border-color: var(--primary);
-  background: rgba(37, 99, 235, 0.1);
-  color: var(--primary);
-}
-
-/* QUIZ */
-
-.quiz-header {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  opacity: 0.8;
 }
 
-.quiz-header p {
-  color: var(--muted);
-  font-size: 0.9rem;
+/* ============================= */
+/* 🔄 FLIP CARD */
+/* ============================= */
+
+.flip-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  perspective: 1200px;
 }
 
-.question-text {
-  font-weight: 600;
-  margin-bottom: 12px;
+.flip-card-inner {
+  width: 100%;
+  position: relative;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
 }
 
-.choices {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 12px;
+.flip-card-front,
+.flip-card-back {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 25px;
+  min-height: 260px;
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* ============================= */
+/* 📝 CHOIX DE RÉPONSES */
+/* ============================= */
 
 .choice-btn {
   width: 100%;
-  text-align: left;
-  padding: 10px 12px;
+  padding: 12px;
+  margin: 10px 0;
   border-radius: 12px;
   border: 1px solid var(--border);
-  background: var(--bg);
+  background: var(--card);
+  color: var(--text);
   cursor: pointer;
-  font-size: 0.95rem;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+  transition: 0.2s;
 }
 
 .choice-btn:hover {
-  transform: translateY(-1px);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-.choice-btn.selected {
-  border-color: var(--primary);
-  background: rgba(37, 99, 235, 0.08);
+/* ============================= */
+/* 🎯 BOUTONS */
+/* ============================= */
+
+.primary-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  transition: 0.2s;
 }
 
-.feedback {
-  min-height: 20px;
-  font-size: 0.9rem;
-  margin-top: 4px;
+.primary-btn:hover {
+  background: var(--accent-hover);
 }
 
-/* STATS */
+/* ============================= */
+/* ✨ ANIMATIONS */
+/* ============================= */
 
-#screen-stats .card p {
-  font-size: 1.4rem;
-  font-weight: 700;
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.4s forwards;
 }
 
-/* FOOTER */
-
-.footer {
-  text-align: center;
-  padding: 16px;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 700px) {
-  .quiz-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .app {
-    padding: 0 12px;
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

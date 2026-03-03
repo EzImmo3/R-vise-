@@ -1,0 +1,262 @@
+{
+  "matiere": "Français",
+  "chapitres": [
+
+    {
+      "id": "roman",
+      "titre": "Le roman et le récit",
+      "questions": [
+        {
+          "question": "Le narrateur interne raconte :",
+          "choix": ["À la 1re personne", "À la 3e personne", "Sans pronom"],
+          "reponse": 0
+        },
+        {
+          "question": "Un récit à la 3e personne utilise :",
+          "choix": ["Je", "Tu", "Il/Elle"],
+          "reponse": 2
+        },
+        {
+          "question": "Le réalisme cherche à :",
+          "choix": ["Idéaliser le réel", "Représenter fidèlement la réalité", "Créer un monde imaginaire"],
+          "reponse": 1
+        },
+        {
+          "question": "Un personnage principal est appelé :",
+          "choix": ["Héros", "Narrateur", "Auteur"],
+          "reponse": 0
+        },
+        {
+          "question": "L’incipit est :",
+          "choix": ["La fin du roman", "Le début du roman", "Le résumé"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "theatre",
+      "titre": "Le théâtre",
+      "questions": [
+        {
+          "question": "Une didascalie est :",
+          "choix": ["Une réplique", "Une indication scénique", "Un monologue"],
+          "reponse": 1
+        },
+        {
+          "question": "Une tragédie met en scène :",
+          "choix": ["Des personnages ordinaires", "Des héros confrontés au destin", "Des situations comiques"],
+          "reponse": 1
+        },
+        {
+          "question": "Une comédie vise à :",
+          "choix": ["Faire rire", "Faire pleurer", "Faire peur"],
+          "reponse": 0
+        },
+        {
+          "question": "Le monologue permet :",
+          "choix": ["Un dialogue", "L’expression des pensées d’un personnage", "Une action collective"],
+          "reponse": 1
+        },
+        {
+          "question": "Le quiproquo est :",
+          "choix": ["Une erreur d’identité", "Une tirade", "Une scène finale"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "poesie",
+      "titre": "La poésie",
+      "questions": [
+        {
+          "question": "Un alexandrin comporte :",
+          "choix": ["8 syllabes", "10 syllabes", "12 syllabes"],
+          "reponse": 2
+        },
+        {
+          "question": "Une métaphore est :",
+          "choix": ["Une comparaison sans outil", "Une comparaison avec 'comme'", "Une répétition"],
+          "reponse": 0
+        },
+        {
+          "question": "Une strophe est :",
+          "choix": ["Un vers", "Un paragraphe", "Un ensemble de vers"],
+          "reponse": 2
+        },
+        {
+          "question": "Une rime riche comporte :",
+          "choix": ["1 son commun", "2 sons communs", "3 sons ou plus"],
+          "reponse": 2
+        },
+        {
+          "question": "Le lyrisme exprime :",
+          "choix": ["Des émotions personnelles", "Des faits historiques", "Des dialogues"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "litterature-idees",
+      "titre": "La littérature d’idées",
+      "questions": [
+        {
+          "question": "Un essai est :",
+          "choix": ["Un texte argumentatif", "Un poème", "Une pièce de théâtre"],
+          "reponse": 0
+        },
+        {
+          "question": "Un apologue est :",
+          "choix": ["Un récit argumentatif", "Un discours politique", "Une lettre"],
+          "reponse": 0
+        },
+        {
+          "question": "Une fable vise à :",
+          "choix": ["Divertir uniquement", "Instruire en amusant", "Décrire la nature"],
+          "reponse": 1
+        },
+        {
+          "question": "Un pamphlet est :",
+          "choix": ["Un texte neutre", "Un texte satirique et critique", "Un texte scientifique"],
+          "reponse": 1
+        },
+        {
+          "question": "L’argumentation directe utilise :",
+          "choix": ["Un récit", "Des personnages", "Des idées explicites"],
+          "reponse": 2
+        }
+      ]
+    },
+
+    {
+      "id": "argumentation",
+      "titre": "Argumentation",
+      "questions": [
+        {
+          "question": "Une thèse est :",
+          "choix": ["Un exemple", "Une opinion défendue", "Une conclusion"],
+          "reponse": 1
+        },
+        {
+          "question": "Un argument sert à :",
+          "choix": ["Illustrer", "Convaincre", "Raconter"],
+          "reponse": 1
+        },
+        {
+          "question": "Un exemple sert à :",
+          "choix": ["Prouver un argument", "Présenter une thèse", "Conclure"],
+          "reponse": 0
+        },
+        {
+          "question": "Convaincre utilise :",
+          "choix": ["La raison", "Les émotions", "La violence"],
+          "reponse": 0
+        },
+        {
+          "question": "Persuader utilise :",
+          "choix": ["La logique", "Les émotions", "Les chiffres uniquement"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "figures-style",
+      "titre": "Figures de style",
+      "questions": [
+        {
+          "question": "Une comparaison utilise :",
+          "choix": ["Comme", "Sans", "Jamais de lien"],
+          "reponse": 0
+        },
+        {
+          "question": "Une hyperbole est :",
+          "choix": ["Une exagération", "Une atténuation", "Une répétition"],
+          "reponse": 0
+        },
+        {
+          "question": "Une anaphore est :",
+          "choix": ["Une répétition en début de phrase", "Une comparaison", "Une métaphore"],
+          "reponse": 0
+        },
+        {
+          "question": "Une personnification attribue :",
+          "choix": ["Des qualités humaines à un objet", "Des qualités animales à un humain", "Des couleurs à des sons"],
+          "reponse": 0
+        },
+        {
+          "question": "Une litote consiste à :",
+          "choix": ["Dire moins pour suggérer plus", "Dire plus pour exagérer", "Dire l’inverse"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "methodes",
+      "titre": "Méthodes : commentaire, dissertation, écriture d’invention",
+      "questions": [
+        {
+          "question": "Le commentaire de texte analyse :",
+          "choix": ["La structure d’un roman", "Un texte littéraire", "Une œuvre complète"],
+          "reponse": 1
+        },
+        {
+          "question": "La dissertation demande :",
+          "choix": ["Une opinion personnelle sans argument", "Une réflexion organisée", "Un résumé"],
+          "reponse": 1
+        },
+        {
+          "question": "Une introduction doit contenir :",
+          "choix": ["Une conclusion", "Une accroche, un sujet, un plan", "Des exemples"],
+          "reponse": 1
+        },
+        {
+          "question": "L’écriture d’invention doit :",
+          "choix": ["Respecter les consignes", "Être totalement libre", "Être scientifique"],
+          "reponse": 0
+        },
+        {
+          "question": "Une conclusion doit :",
+          "choix": ["Ouvrir et résumer", "Introduire le sujet", "Ajouter des arguments"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "oral",
+      "titre": "Oral de français (lecture et analyse)",
+      "questions": [
+        {
+          "question": "Une lecture expressive doit :",
+          "choix": ["Être monotone", "Respecter le sens du texte", "Être très rapide"],
+          "reponse": 1
+        },
+        {
+          "question": "L’introduction de l’oral doit présenter :",
+          "choix": ["Le texte et l’auteur", "Seulement le plan", "Seulement la conclusion"],
+          "reponse": 0
+        },
+        {
+          "question": "Une analyse linéaire suit :",
+          "choix": ["L’ordre du texte", "Un plan thématique", "Un plan libre"],
+          "reponse": 0
+        },
+        {
+          "question": "L’examinateur évalue :",
+          "choix": ["La tenue vestimentaire", "La compréhension et l’expression", "La vitesse de lecture"],
+          "reponse": 1
+        },
+        {
+          "question": "Une ouverture en conclusion doit :",
+          "choix": ["Être hors sujet", "Élargir la réflexion", "Répéter le texte"],
+          "reponse": 1
+        }
+      ]
+    }
+
+  ]
+}

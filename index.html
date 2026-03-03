@@ -3,105 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Étudiant – Enzo</title>
+  <title>Révisions – Première Générale</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="topbar">
-    <div class="logo">Quiz Étudiant</div>
-    <nav>
-      <button class="nav-link" data-screen="home">Accueil</button>
-      <button class="nav-link" data-screen="stats">Progression</button>
-    </nav>
-    <button id="toggleTheme" class="icon-btn">🌙</button>
+<body class="dark">
+
+  <header class="app-header">
+    <h1>Révisions – Première Générale</h1>
+    <button id="themeToggle" class="icon-btn">🌙</button>
   </header>
 
-  <main class="app">
+  <main class="app-main">
+    <h2>Choisis une matière</h2>
 
-    <!-- ACCUEIL -->
-    <section id="screen-home" class="screen active">
-      <h1>Quiz Étudiant</h1>
-      <p class="subtitle">Teste tes connaissances niveau Première et progresse.</p>
-
-      <div class="card big-card">
-        <p>Choisis un thème, une difficulté, et lance un quiz de 10 questions.</p>
-        <p class="note">Application créée par Enzo – projet personnel de révision (Première Générale).</p>
-      </div>
-
-      <button id="startBtn" class="primary-btn">Commencer</button>
-    </section>
-
-    <!-- CHOIX THÈME + DIFFICULTÉ -->
-    <section id="screen-setup" class="screen">
-      <h2>Choisis ton thème</h2>
-      <div id="themeList" class="grid"></div>
-
-      <h2>Choisis la difficulté</h2>
-      <div class="difficulty-list">
-        <button class="difficulty-btn" data-diff="facile">Facile</button>
-        <button class="difficulty-btn" data-diff="moyen">Moyen</button>
-        <button class="difficulty-btn" data-diff="difficile">Difficile</button>
-      </div>
-
-      <button id="launchQuizBtn" class="primary-btn" disabled>Lancer le quiz</button>
-      <button class="secondary-btn" data-screen="home">Retour</button>
-    </section>
-
-    <!-- QUIZ -->
-    <section id="screen-quiz" class="screen">
-      <div class="quiz-header">
-        <h2 id="quizTheme"></h2>
-        <p id="quizDifficulty"></p>
-        <p id="quizProgress"></p>
-      </div>
-
-      <div class="card">
-        <p id="questionText" class="question-text"></p>
-        <div id="choicesContainer" class="choices"></div>
-        <button id="validateBtn" class="primary-btn" disabled>Valider</button>
-        <p id="feedback" class="feedback"></p>
-      </div>
-    </section>
-
-    <!-- RÉSULTATS -->
-    <section id="screen-result" class="screen">
-      <h2>Résultat du quiz</h2>
-      <div class="card big-card">
-        <p id="finalScore"></p>
-        <p id="finalPercent"></p>
-        <p id="finalMessage"></p>
-      </div>
-
-      <button id="retryBtn" class="primary-btn">Recommencer ce thème</button>
-      <button id="changeThemeBtn" class="secondary-btn">Changer de thème</button>
-      <button class="secondary-btn" data-screen="home">Retour à l’accueil</button>
-    </section>
-
-    <!-- PROGRESSION -->
-    <section id="screen-stats" class="screen">
-      <h2>Ta progression</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Nombre de quiz faits</h3>
-          <p id="statQuizzes">0</p>
-        </div>
-        <div class="card">
-          <h3>Meilleur score</h3>
-          <p id="statBest">0 / 100</p>
-        </div>
-        <div class="card">
-          <h3>Moyenne</h3>
-          <p id="statAverage">0%</p>
-        </div>
-      </div>
-      <button class="secondary-btn" data-screen="home">Retour</button>
-    </section>
-
+    <div class="grid-matieres">
+      <button class="matiere-card" data-matiere="maths">Mathématiques (spé)</button>
+      <button class="matiere-card" data-matiere="physique">Physique‑Chimie (spé)</button>
+      <button class="matiere-card" data-matiere="ses">SES (spé)</button>
+      <button class="matiere-card" data-matiere="svt">SVT (spé)</button>
+      <button class="matiere-card" data-matiere="histoiregeo">Histoire‑Géo</button>
+      <button class="matiere-card" data-matiere="francais">Français</button>
+      <button class="matiere-card" data-matiere="culture">Culture générale</button>
+      <button class="matiere-card" data-matiere="info">Informatique (NSI / SNT)</button>
+    </div>
   </main>
-
-  <footer class="footer">
-    <p>Quiz Étudiant – Application créée par Enzo, lycéen (Première Générale).</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>

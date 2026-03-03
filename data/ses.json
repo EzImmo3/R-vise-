@@ -1,0 +1,358 @@
+{
+  "matiere": "SES (spé)",
+  "chapitres": [
+
+    {
+      "id": "marches-prix",
+      "titre": "Les marchés et la formation des prix",
+      "questions": [
+        {
+          "question": "Le prix d’équilibre est :",
+          "choix": ["Le prix imposé par l’État", "Le prix où l’offre = la demande", "Le prix le plus élevé"],
+          "reponse": 1
+        },
+        {
+          "question": "Un marché est :",
+          "choix": ["Un lieu physique uniquement", "Une rencontre entre offreurs et demandeurs", "Une entreprise"],
+          "reponse": 1
+        },
+        {
+          "question": "Si la demande augmente, le prix :",
+          "choix": ["Baisse", "Reste stable", "Augmente"],
+          "reponse": 2
+        },
+        {
+          "question": "Une situation de pénurie apparaît lorsque :",
+          "choix": ["Offre > demande", "Demande > offre", "Prix = 0"],
+          "reponse": 1
+        },
+        {
+          "question": "Un prix plafond est :",
+          "choix": ["Un prix minimum", "Un prix maximum", "Un prix d’équilibre"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "offre-demande-elasticite",
+      "titre": "Offre, demande et élasticité",
+      "questions": [
+        {
+          "question": "L’élasticité-prix de la demande mesure :",
+          "choix": ["La variation du prix", "La sensibilité de la demande au prix", "La quantité offerte"],
+          "reponse": 1
+        },
+        {
+          "question": "Une demande inélastique signifie :",
+          "choix": ["La demande varie beaucoup", "La demande varie peu", "La demande est nulle"],
+          "reponse": 1
+        },
+        {
+          "question": "Si le prix augmente et que la demande baisse fortement, la demande est :",
+          "choix": ["Élastique", "Inélastique", "Parfaite"],
+          "reponse": 0
+        },
+        {
+          "question": "L’offre augmente lorsque :",
+          "choix": ["Les coûts augmentent", "Le prix augmente", "La demande baisse"],
+          "reponse": 1
+        },
+        {
+          "question": "Une élasticité négative concerne :",
+          "choix": ["L’offre", "La demande", "Le coût marginal"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "croissance",
+      "titre": "Croissance économique",
+      "questions": [
+        {
+          "question": "La croissance économique correspond à :",
+          "choix": ["Une baisse du PIB", "Une augmentation durable du PIB", "Une hausse des prix"],
+          "reponse": 1
+        },
+        {
+          "question": "Le PIB mesure :",
+          "choix": ["La production d’un pays", "La richesse des ménages", "Les exportations uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Un facteur de production est :",
+          "choix": ["Un bien de consommation", "Le travail ou le capital", "Un impôt"],
+          "reponse": 1
+        },
+        {
+          "question": "Le progrès technique permet :",
+          "choix": ["De produire plus efficacement", "De réduire la productivité", "D’augmenter les prix"],
+          "reponse": 0
+        },
+        {
+          "question": "La croissance extensive repose sur :",
+          "choix": ["Plus de facteurs", "Une meilleure efficacité", "Moins de travail"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "production-valeur-ajoutee",
+      "titre": "Production et valeur ajoutée",
+      "questions": [
+        {
+          "question": "La valeur ajoutée correspond à :",
+          "choix": ["Le chiffre d’affaires", "La richesse créée", "Les coûts de production"],
+          "reponse": 1
+        },
+        {
+          "question": "Une entreprise produit pour :",
+          "choix": ["Satisfaire des besoins", "Créer des impôts", "Réduire la demande"],
+          "reponse": 0
+        },
+        {
+          "question": "Le chiffre d’affaires est :",
+          "choix": ["Le total des ventes", "La valeur ajoutée", "Le bénéfice"],
+          "reponse": 0
+        },
+        {
+          "question": "Le bénéfice est :",
+          "choix": ["CA - coûts", "VA - coûts", "Coûts - CA"],
+          "reponse": 0
+        },
+        {
+          "question": "Une entreprise publique appartient :",
+          "choix": ["À l’État", "À des actionnaires privés", "Aux consommateurs"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "socialisation",
+      "titre": "Socialisation",
+      "questions": [
+        {
+          "question": "La socialisation est :",
+          "choix": ["Un processus d’apprentissage", "Une loi économique", "Une interaction biologique"],
+          "reponse": 0
+        },
+        {
+          "question": "La famille est :",
+          "choix": ["Un agent de socialisation", "Un marché", "Une institution politique"],
+          "reponse": 0
+        },
+        {
+          "question": "La socialisation primaire se déroule :",
+          "choix": ["À l’âge adulte", "Pendant l’enfance", "À la retraite"],
+          "reponse": 1
+        },
+        {
+          "question": "La socialisation secondaire concerne :",
+          "choix": ["Les enfants", "Les adultes", "Les bébés"],
+          "reponse": 1
+        },
+        {
+          "question": "L’école transmet :",
+          "choix": ["Des normes et valeurs", "Des impôts", "Des prix"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "groupes-sociaux",
+      "titre": "Groupes sociaux",
+      "questions": [
+        {
+          "question": "Un groupe social est :",
+          "choix": ["Un ensemble d’individus isolés", "Un ensemble d’individus en interaction", "Une entreprise"],
+          "reponse": 1
+        },
+        {
+          "question": "Un groupe primaire est :",
+          "choix": ["Un groupe proche", "Un groupe anonyme", "Un groupe professionnel"],
+          "reponse": 0
+        },
+        {
+          "question": "Un groupe secondaire est :",
+          "choix": ["Une famille", "Un groupe professionnel", "Un groupe d’amis"],
+          "reponse": 1
+        },
+        {
+          "question": "L’identité sociale dépend :",
+          "choix": ["Du hasard", "Du groupe d’appartenance", "Du revenu uniquement"],
+          "reponse": 1
+        },
+        {
+          "question": "Un statut social correspond à :",
+          "choix": ["Une position sociale", "Un revenu", "Un diplôme"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "deviance-controle",
+      "titre": "Déviance et contrôle social",
+      "questions": [
+        {
+          "question": "La déviance est :",
+          "choix": ["Une maladie", "Une transgression des normes", "Une loi"],
+          "reponse": 1
+        },
+        {
+          "question": "Le contrôle social peut être :",
+          "choix": ["Formel ou informel", "Économique uniquement", "Biologique"],
+          "reponse": 0
+        },
+        {
+          "question": "La sanction peut être :",
+          "choix": ["Positive ou négative", "Toujours négative", "Toujours financière"],
+          "reponse": 0
+        },
+        {
+          "question": "La délinquance est :",
+          "choix": ["Une norme", "Une déviance sanctionnée", "Une valeur"],
+          "reponse": 1
+        },
+        {
+          "question": "Les normes sont :",
+          "choix": ["Des règles de conduite", "Des lois naturelles", "Des prix"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "inegalites",
+      "titre": "Inégalités sociales",
+      "questions": [
+        {
+          "question": "Une inégalité est :",
+          "choix": ["Une différence injuste", "Une différence de couleur", "Une loi"],
+          "reponse": 0
+        },
+        {
+          "question": "Les inégalités peuvent être :",
+          "choix": ["Économiques ou sociales", "Biologiques uniquement", "Politiques uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Le capital culturel est :",
+          "choix": ["Un revenu", "Un ensemble de connaissances", "Un bien immobilier"],
+          "reponse": 1
+        },
+        {
+          "question": "La mobilité sociale désigne :",
+          "choix": ["Un déplacement géographique", "Un changement de position sociale", "Un changement de prix"],
+          "reponse": 1
+        },
+        {
+          "question": "Les discriminations sont :",
+          "choix": ["Des traitements inégaux", "Des lois", "Des sanctions"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "pouvoir-politique",
+      "titre": "Pouvoir politique",
+      "questions": [
+        {
+          "question": "Le pouvoir politique consiste à :",
+          "choix": ["Influencer les prix", "Prendre des décisions collectives", "Fixer les salaires"],
+          "reponse": 1
+        },
+        {
+          "question": "Une démocratie repose sur :",
+          "choix": ["La participation citoyenne", "Un seul dirigeant", "L’absence d’élections"],
+          "reponse": 0
+        },
+        {
+          "question": "Un régime autoritaire limite :",
+          "choix": ["Les libertés", "Les impôts", "Les prix"],
+          "reponse": 0
+        },
+        {
+          "question": "Le pouvoir exécutif applique :",
+          "choix": ["Les lois", "Les prix", "Les normes sociales"],
+          "reponse": 0
+        },
+        {
+          "question": "Le pouvoir législatif :",
+          "choix": ["Vote les lois", "Applique les lois", "Juge les lois"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "etat",
+      "titre": "État",
+      "questions": [
+        {
+          "question": "L’État assure :",
+          "choix": ["La production privée", "Les fonctions régaliennes", "La concurrence"],
+          "reponse": 1
+        },
+        {
+          "question": "Un bien public est :",
+          "choix": ["Rival", "Non excluable", "Payant obligatoirement"],
+          "reponse": 1
+        },
+        {
+          "question": "L’État-providence vise à :",
+          "choix": ["Réduire les inégalités", "Augmenter les prix", "Supprimer les impôts"],
+          "reponse": 0
+        },
+        {
+          "question": "Les prélèvements obligatoires financent :",
+          "choix": ["Les services publics", "Les entreprises privées", "Les exportations"],
+          "reponse": 0
+        },
+        {
+          "question": "Un impôt progressif :",
+          "choix": ["Augmente avec le revenu", "Diminue avec le revenu", "Est identique pour tous"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "democratie",
+      "titre": "Démocratie et participation politique",
+      "questions": [
+        {
+          "question": "La participation politique inclut :",
+          "choix": ["Le vote", "Le travail", "La consommation"],
+          "reponse": 0
+        },
+        {
+          "question": "L’abstention désigne :",
+          "choix": ["Un vote blanc", "Le fait de ne pas voter", "Un vote nul"],
+          "reponse": 1
+        },
+        {
+          "question": "Un parti politique vise à :",
+          "choix": ["Gagner de l’argent", "Conquérir le pouvoir", "Fixer les prix"],
+          "reponse": 1
+        },
+        {
+          "question": "Un syndicat défend :",
+          "choix": ["Les intérêts des travailleurs", "Les prix du marché", "Les entreprises"],
+          "reponse": 0
+        },
+        {
+          "question": "La démocratie représentative repose sur :",
+          "choix": ["Des représentants élus", "Des tirages au sort", "Des décisions militaires"],
+          "reponse": 0
+        }
+      ]
+    }
+
+  ]
+}

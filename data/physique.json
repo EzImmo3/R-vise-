@@ -1,0 +1,326 @@
+{
+  "matiere": "Physique-Chimie (spé)",
+  "chapitres": [
+
+    {
+      "id": "constitution-matiere",
+      "titre": "Constitution et transformations de la matière",
+      "questions": [
+        {
+          "question": "Un atome est constitué de :",
+          "choix": ["Protons, neutrons, électrons", "Molécules", "Quarks uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Une molécule est :",
+          "choix": ["Un ion", "Un assemblage d’atomes", "Un proton"],
+          "reponse": 1
+        },
+        {
+          "question": "Une transformation chimique conserve :",
+          "choix": ["Les atomes", "Les molécules", "La masse uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Un ion positif est appelé :",
+          "choix": ["Anion", "Cation", "Neutron"],
+          "reponse": 1
+        },
+        {
+          "question": "La masse molaire s’exprime en :",
+          "choix": ["g/mol", "mol/L", "kg"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "mouvement-interactions",
+      "titre": "Mouvement et interactions",
+      "questions": [
+        {
+          "question": "La vitesse s’exprime en :",
+          "choix": ["m/s", "kg", "N"],
+          "reponse": 0
+        },
+        {
+          "question": "Une force est représentée par :",
+          "choix": ["Un point", "Un vecteur", "Un nombre complexe"],
+          "reponse": 1
+        },
+        {
+          "question": "Le poids est une force dirigée :",
+          "choix": ["Vers le haut", "Vers le centre de la Terre", "Horizontalement"],
+          "reponse": 1
+        },
+        {
+          "question": "La trajectoire dépend :",
+          "choix": ["Du référentiel", "De la masse", "De la couleur de l’objet"],
+          "reponse": 0
+        },
+        {
+          "question": "L’unité du Newton correspond à :",
+          "choix": ["kg·m/s²", "m/s", "J"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "lois-newton",
+      "titre": "Lois de Newton (bases)",
+      "questions": [
+        {
+          "question": "La première loi de Newton est aussi appelée :",
+          "choix": ["Principe d’inertie", "Principe d’action-réaction", "Principe fondamental"],
+          "reponse": 0
+        },
+        {
+          "question": "La troisième loi de Newton dit que :",
+          "choix": ["F = ma", "Toute action a une réaction opposée", "Le mouvement est rectiligne"],
+          "reponse": 1
+        },
+        {
+          "question": "La deuxième loi de Newton relie :",
+          "choix": ["Force, masse, accélération", "Vitesse et énergie", "Poids et masse volumique"],
+          "reponse": 0
+        },
+        {
+          "question": "Si la somme des forces est nulle, le mouvement est :",
+          "choix": ["Accéléré", "Rectiligne uniforme", "Circulaire"],
+          "reponse": 1
+        },
+        {
+          "question": "L’unité de l’accélération est :",
+          "choix": ["m/s²", "N", "J"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "energie",
+      "titre": "Énergie : transferts et conversions",
+      "questions": [
+        {
+          "question": "L’unité de l’énergie est :",
+          "choix": ["Watt", "Joule", "Newton"],
+          "reponse": 1
+        },
+        {
+          "question": "La puissance correspond à :",
+          "choix": ["Une force", "Une énergie par unité de temps", "Une vitesse"],
+          "reponse": 1
+        },
+        {
+          "question": "Une énergie mécanique peut être :",
+          "choix": ["Cinetique ou potentielle", "Thermique uniquement", "Nucléaire uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Une conversion d’énergie respecte :",
+          "choix": ["La conservation de l’énergie", "La création d’énergie", "La disparition d’énergie"],
+          "reponse": 0
+        },
+        {
+          "question": "La puissance s’exprime en :",
+          "choix": ["W", "J", "Pa"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "ondes",
+      "titre": "Ondes (sonores, mécaniques)",
+      "questions": [
+        {
+          "question": "Une onde transporte :",
+          "choix": ["De la matière", "De l’énergie", "Des particules"],
+          "reponse": 1
+        },
+        {
+          "question": "La fréquence s’exprime en :",
+          "choix": ["Hz", "m", "J"],
+          "reponse": 0
+        },
+        {
+          "question": "La longueur d’onde est :",
+          "choix": ["La distance entre deux crêtes", "La vitesse", "L’amplitude"],
+          "reponse": 0
+        },
+        {
+          "question": "Le son est une onde :",
+          "choix": ["Électromagnétique", "Mécanique", "Nucléaire"],
+          "reponse": 1
+        },
+        {
+          "question": "La vitesse d’une onde dépend :",
+          "choix": ["Du milieu", "De la couleur", "De la masse"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "reactions-chimiques",
+      "titre": "Réactions chimiques",
+      "questions": [
+        {
+          "question": "Une réaction chimique transforme :",
+          "choix": ["Des réactifs en produits", "Des produits en réactifs", "Des atomes en énergie"],
+          "reponse": 0
+        },
+        {
+          "question": "Une équation chimique doit être :",
+          "choix": ["Colorée", "Équilibrée", "Simplifiée"],
+          "reponse": 1
+        },
+        {
+          "question": "Un catalyseur :",
+          "choix": ["Accélère la réaction", "La ralentit", "La bloque"],
+          "reponse": 0
+        },
+        {
+          "question": "La conservation de la masse est due à :",
+          "choix": ["Lavoisier", "Newton", "Einstein"],
+          "reponse": 0
+        },
+        {
+          "question": "Un réactif limitant :",
+          "choix": ["Est en excès", "S’épuise en premier", "N’intervient pas"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "quantites-matiere",
+      "titre": "Quantités de matière (mol, concentrations)",
+      "questions": [
+        {
+          "question": "La quantité de matière s’exprime en :",
+          "choix": ["mol", "g", "L"],
+          "reponse": 0
+        },
+        {
+          "question": "La relation n = m/M relie :",
+          "choix": ["Masse, volume", "Masse, quantité de matière, masse molaire", "Concentration"],
+          "reponse": 1
+        },
+        {
+          "question": "La concentration molaire s’exprime en :",
+          "choix": ["mol/L", "g/mol", "mol"],
+          "reponse": 0
+        },
+        {
+          "question": "Une solution diluée a :",
+          "choix": ["Une forte concentration", "Une faible concentration", "Une concentration nulle"],
+          "reponse": 1
+        },
+        {
+          "question": "La masse molaire de l’eau est environ :",
+          "choix": ["18 g/mol", "10 g/mol", "32 g/mol"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "solutions-aqueuses",
+      "titre": "Solutions aqueuses",
+      "questions": [
+        {
+          "question": "Une solution aqueuse utilise comme solvant :",
+          "choix": ["L’alcool", "L’eau", "L’huile"],
+          "reponse": 1
+        },
+        {
+          "question": "Un soluté est :",
+          "choix": ["Le liquide", "La substance dissoute", "Le gaz"],
+          "reponse": 1
+        },
+        {
+          "question": "Une solution saturée :",
+          "choix": ["Ne peut plus dissoudre de soluté", "Est très diluée", "Est gazeuse"],
+          "reponse": 0
+        },
+        {
+          "question": "La conductivité dépend :",
+          "choix": ["Des ions présents", "De la couleur", "De la température uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Un ion positif est :",
+          "choix": ["Un anion", "Un cation", "Un neutron"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "acides-bases",
+      "titre": "Acides et bases",
+      "questions": [
+        {
+          "question": "Le pH mesure :",
+          "choix": ["L’acidité", "La masse", "La température"],
+          "reponse": 0
+        },
+        {
+          "question": "Un acide libère :",
+          "choix": ["Des ions H⁺", "Des ions OH⁻", "Des électrons"],
+          "reponse": 0
+        },
+        {
+          "question": "Une base libère :",
+          "choix": ["Des ions H⁺", "Des ions OH⁻", "Des neutrons"],
+          "reponse": 1
+        },
+        {
+          "question": "Un pH = 7 est :",
+          "choix": ["Acide", "Basique", "Neutre"],
+          "reponse": 2
+        },
+        {
+          "question": "Une réaction acide-base est une réaction :",
+          "choix": ["D’oxydoréduction", "De neutralisation", "Nucléaire"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "oxydoreduction",
+      "titre": "Oxydoréduction (bases)",
+      "questions": [
+        {
+          "question": "Une oxydation correspond à :",
+          "choix": ["Un gain d’électrons", "Une perte d’électrons", "Une réaction acide-base"],
+          "reponse": 1
+        },
+        {
+          "question": "Une réduction correspond à :",
+          "choix": ["Un gain d’électrons", "Une perte d’électrons", "Une neutralisation"],
+          "reponse": 0
+        },
+        {
+          "question": "L’oxydant est l’espèce qui :",
+          "choix": ["Gagne des électrons", "Perd des électrons", "Ne réagit pas"],
+          "reponse": 0
+        },
+        {
+          "question": "Le réducteur est l’espèce qui :",
+          "choix": ["Gagne des électrons", "Perd des électrons", "Est neutre"],
+          "reponse": 1
+        },
+        {
+          "question": "Une réaction d’oxydoréduction implique :",
+          "choix": ["Un échange d’électrons", "Un échange de protons", "Un échange d’ions OH⁻"],
+          "reponse": 0
+        }
+      ]
+    }
+
+  ]
+}

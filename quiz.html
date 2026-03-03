@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Révisions – Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+  <header class="app-header">
+    <button class="back-btn" id="backToChapters">← Chapitres</button>
+    <h1 id="chapTitre">Chapitre</h1>
+    <button id="themeToggle" class="icon-btn">🌙</button>
+  </header>
+
+  <main class="app-main">
+
+    <div class="quiz-info">
+      <span id="questionIndex"></span>
+      <span id="scoreInfo"></span>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner" id="cardInner">
+
+        <!-- Face avant : question -->
+        <div class="flip-card-front">
+          <h2 id="questionText"></h2>
+          <div id="choicesContainer"></div>
+        </div>
+
+        <!-- Face arrière : correction -->
+        <div class="flip-card-back">
+          <h2>Correction</h2>
+          <p id="correctionText"></p>
+          <button id="nextQuestionBtn" class="primary-btn">Question suivante</button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

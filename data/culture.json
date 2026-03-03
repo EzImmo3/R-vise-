@@ -1,0 +1,166 @@
+{
+  "matiere": "Culture générale",
+  "chapitres": [
+
+    {
+      "id": "philosophie",
+      "titre": "Grandes notions philosophiques (liberté, justice, bonheur…)",
+      "questions": [
+        {
+          "question": "Pour Aristote, le bonheur est :",
+          "choix": ["Un plaisir immédiat", "Une activité vertueuse", "Une richesse matérielle"],
+          "reponse": 1
+        },
+        {
+          "question": "La liberté peut être définie comme :",
+          "choix": ["Faire tout ce qu’on veut", "Agir sans contraintes", "Obéir à la loi qu’on s’est donnée"],
+          "reponse": 2
+        },
+        {
+          "question": "La justice vise :",
+          "choix": ["L’égalité et l’équité", "La richesse", "La force"],
+          "reponse": 0
+        },
+        {
+          "question": "Pour Kant, une action morale dépend :",
+          "choix": ["Des conséquences", "De l’intention", "Du plaisir qu’elle procure"],
+          "reponse": 1
+        },
+        {
+          "question": "Le déterminisme affirme que :",
+          "choix": ["Tout est prévisible", "Tout est causé", "Rien n’a de cause"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "esprit-critique",
+      "titre": "Esprit critique",
+      "questions": [
+        {
+          "question": "L’esprit critique consiste à :",
+          "choix": ["Tout refuser", "Analyser avant de croire", "Croire sans vérifier"],
+          "reponse": 1
+        },
+        {
+          "question": "Une source fiable est :",
+          "choix": ["Non vérifiable", "Vérifiée et transparente", "Anonyme"],
+          "reponse": 1
+        },
+        {
+          "question": "Un biais cognitif est :",
+          "choix": ["Une erreur de raisonnement", "Une preuve scientifique", "Une opinion neutre"],
+          "reponse": 0
+        },
+        {
+          "question": "La rumeur se caractérise par :",
+          "choix": ["Une information vérifiée", "Une information non confirmée", "Une preuve scientifique"],
+          "reponse": 1
+        },
+        {
+          "question": "La méthode scientifique repose sur :",
+          "choix": ["L’intuition", "L’expérimentation et la vérification", "La tradition"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "argumentation-debat",
+      "titre": "Argumentation et débat",
+      "questions": [
+        {
+          "question": "Un argument doit être :",
+          "choix": ["Logique et pertinent", "Émotionnel uniquement", "Agressif"],
+          "reponse": 0
+        },
+        {
+          "question": "Un débat constructif nécessite :",
+          "choix": ["L’écoute", "L’interruption", "L’insulte"],
+          "reponse": 0
+        },
+        {
+          "question": "Une thèse est :",
+          "choix": ["Une opinion défendue", "Un exemple", "Une conclusion"],
+          "reponse": 0
+        },
+        {
+          "question": "Un sophisme est :",
+          "choix": ["Un raisonnement trompeur", "Un argument valide", "Une preuve"],
+          "reponse": 0
+        },
+        {
+          "question": "Convaincre utilise :",
+          "choix": ["La raison", "La violence", "La peur"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "analyse-documents",
+      "titre": "Analyse de documents",
+      "questions": [
+        {
+          "question": "Analyser un document consiste à :",
+          "choix": ["Le recopier", "Comprendre son sens et son contexte", "Donner son avis personnel uniquement"],
+          "reponse": 1
+        },
+        {
+          "question": "Une source primaire est :",
+          "choix": ["Un témoignage direct", "Une analyse", "Un résumé"],
+          "reponse": 0
+        },
+        {
+          "question": "Un document iconographique est :",
+          "choix": ["Un texte", "Une image", "Un son"],
+          "reponse": 1
+        },
+        {
+          "question": "Le contexte historique permet :",
+          "choix": ["D’interpréter correctement le document", "De le rendre faux", "De le censurer"],
+          "reponse": 0
+        },
+        {
+          "question": "Une légende d’image sert à :",
+          "choix": ["Décorer", "Expliquer ce que montre l’image", "Remplacer le texte"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "monde-contemporain",
+      "titre": "Réflexion sur le monde contemporain",
+      "questions": [
+        {
+          "question": "La mondialisation correspond à :",
+          "choix": ["La fermeture des frontières", "L’intensification des échanges", "La disparition des États"],
+          "reponse": 1
+        },
+        {
+          "question": "Le développement durable repose sur :",
+          "choix": ["L’économie uniquement", "L’économie, le social et l’environnement", "L’écologie uniquement"],
+          "reponse": 1
+        },
+        {
+          "question": "Une démocratie garantit :",
+          "choix": ["La liberté d’expression", "La censure", "Un seul parti politique"],
+          "reponse": 0
+        },
+        {
+          "question": "Une innovation technologique peut :",
+          "choix": ["Transformer la société", "Ne rien changer", "Supprimer toute communication"],
+          "reponse": 0
+        },
+        {
+          "question": "Un enjeu majeur du XXIe siècle est :",
+          "choix": ["Le changement climatique", "La disparition d’Internet", "La fin de l’éducation"],
+          "reponse": 0
+        }
+      ]
+    }
+
+  ]
+}

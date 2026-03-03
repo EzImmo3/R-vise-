@@ -1,0 +1,294 @@
+{
+  "matiere": "Histoire-Géographie",
+  "chapitres": [
+
+    {
+      "id": "europe-revolutions",
+      "titre": "L’Europe face aux révolutions",
+      "questions": [
+        {
+          "question": "La Révolution française débute en :",
+          "choix": ["1789", "1815", "1914"],
+          "reponse": 0
+        },
+        {
+          "question": "Les révolutions de 1848 sont appelées :",
+          "choix": ["Printemps des peuples", "Belle Époque", "Trente Glorieuses"],
+          "reponse": 0
+        },
+        {
+          "question": "La révolution industrielle commence :",
+          "choix": ["Au XVIIIe siècle", "Au XXe siècle", "Au Moyen Âge"],
+          "reponse": 0
+        },
+        {
+          "question": "Un régime libéral défend :",
+          "choix": ["Les libertés individuelles", "La monarchie absolue", "La censure"],
+          "reponse": 0
+        },
+        {
+          "question": "Les Lumières critiquent :",
+          "choix": ["La raison", "L’absolutisme", "La démocratie"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "revolution-francaise",
+      "titre": "La Révolution française",
+      "questions": [
+        {
+          "question": "La prise de la Bastille a lieu le :",
+          "choix": ["14 juillet 1789", "4 août 1789", "21 janvier 1793"],
+          "reponse": 0
+        },
+        {
+          "question": "La Déclaration des droits de l’homme date de :",
+          "choix": ["1789", "1792", "1804"],
+          "reponse": 0
+        },
+        {
+          "question": "La Terreur est dirigée par :",
+          "choix": ["Robespierre", "Napoléon", "Louis XVI"],
+          "reponse": 0
+        },
+        {
+          "question": "Louis XVI est exécuté en :",
+          "choix": ["1789", "1793", "1815"],
+          "reponse": 1
+        },
+        {
+          "question": "La Révolution met fin :",
+          "choix": ["À la monarchie absolue", "À la République", "À l’esclavage"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "etats-nations",
+      "titre": "La construction des États-nations",
+      "questions": [
+        {
+          "question": "Un État-nation repose sur :",
+          "choix": ["Une armée", "Une population partageant une identité", "Une colonie"],
+          "reponse": 1
+        },
+        {
+          "question": "L’unité italienne est réalisée en :",
+          "choix": ["1861", "1789", "1918"],
+          "reponse": 0
+        },
+        {
+          "question": "L’unité allemande est proclamée en :",
+          "choix": ["1871", "1848", "1914"],
+          "reponse": 0
+        },
+        {
+          "question": "Un nationaliste défend :",
+          "choix": ["L’indépendance d’un peuple", "La colonisation", "La monarchie absolue"],
+          "reponse": 0
+        },
+        {
+          "question": "Le romantisme influence :",
+          "choix": ["Le nationalisme", "Le libéralisme économique", "Le communisme"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "societe-politique-xix",
+      "titre": "Société et politique au XIXe siècle",
+      "questions": [
+        {
+          "question": "Le suffrage universel masculin est instauré en :",
+          "choix": ["1848", "1789", "1914"],
+          "reponse": 0
+        },
+        {
+          "question": "La révolution industrielle entraîne :",
+          "choix": ["L’urbanisation", "La fin du travail", "La disparition des campagnes"],
+          "reponse": 0
+        },
+        {
+          "question": "Le socialisme critique :",
+          "choix": ["Les inégalités", "La solidarité", "La démocratie"],
+          "reponse": 0
+        },
+        {
+          "question": "La IIIe République est proclamée en :",
+          "choix": ["1870", "1848", "1918"],
+          "reponse": 0
+        },
+        {
+          "question": "Les syndicats sont autorisés en :",
+          "choix": ["1884", "1789", "1945"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "territoires-proximite",
+      "titre": "Territoires de proximité",
+      "questions": [
+        {
+          "question": "Un territoire de proximité est :",
+          "choix": ["Un espace vécu au quotidien", "Un pays étranger", "Un continent"],
+          "reponse": 0
+        },
+        {
+          "question": "Une collectivité territoriale gère :",
+          "choix": ["Des services locaux", "L’armée", "La diplomatie"],
+          "reponse": 0
+        },
+        {
+          "question": "Un aménagement vise à :",
+          "choix": ["Organiser un territoire", "Augmenter les impôts", "Supprimer les transports"],
+          "reponse": 0
+        },
+        {
+          "question": "Un acteur local peut être :",
+          "choix": ["Une association", "L’ONU", "L’OTAN"],
+          "reponse": 0
+        },
+        {
+          "question": "La mobilité quotidienne concerne :",
+          "choix": ["Les déplacements du quotidien", "Les migrations internationales", "Les voyages touristiques"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "espaces-ruraux",
+      "titre": "Espaces ruraux",
+      "questions": [
+        {
+          "question": "Un espace rural est caractérisé par :",
+          "choix": ["Une forte densité", "Une faible densité", "Une absence d’activités"],
+          "reponse": 1
+        },
+        {
+          "question": "L’agriculture intensive vise :",
+          "choix": ["Une forte productivité", "Une faible production", "La disparition des exploitations"],
+          "reponse": 0
+        },
+        {
+          "question": "La multifonctionnalité des espaces ruraux signifie :",
+          "choix": ["Une seule activité", "Plusieurs usages du territoire", "Aucune activité"],
+          "reponse": 1
+        },
+        {
+          "question": "La déprise agricole correspond à :",
+          "choix": ["L’abandon de terres", "L’augmentation des exploitations", "La hausse des rendements"],
+          "reponse": 0
+        },
+        {
+          "question": "Un parc naturel régional vise :",
+          "choix": ["La protection et le développement durable", "La construction d’usines", "La déforestation"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "metropolisation",
+      "titre": "Métropolisation",
+      "questions": [
+        {
+          "question": "La métropolisation est :",
+          "choix": ["La croissance des petites villes", "La concentration des populations et activités dans les grandes villes", "La disparition des métropoles"],
+          "reponse": 1
+        },
+        {
+          "question": "Une métropole exerce :",
+          "choix": ["Un rayonnement", "Aucun rôle", "Un rôle uniquement local"],
+          "reponse": 0
+        },
+        {
+          "question": "La gentrification correspond à :",
+          "choix": ["L’arrivée de populations aisées", "La destruction des centres-villes", "La ruralisation"],
+          "reponse": 0
+        },
+        {
+          "question": "Un quartier d’affaires est appelé :",
+          "choix": ["CBD", "HLM", "ZAD"],
+          "reponse": 0
+        },
+        {
+          "question": "La périurbanisation correspond à :",
+          "choix": ["L’étalement urbain", "La densification des centres", "La disparition des banlieues"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "mobilites-humaines",
+      "titre": "Mobilités humaines",
+      "questions": [
+        {
+          "question": "Une migration est :",
+          "choix": ["Un déplacement durable", "Un déplacement touristique", "Un déplacement quotidien"],
+          "reponse": 0
+        },
+        {
+          "question": "Un réfugié fuit :",
+          "choix": ["Un danger", "Un voyage", "Un travail"],
+          "reponse": 0
+        },
+        {
+          "question": "Une diaspora est :",
+          "choix": ["Une communauté dispersée", "Une ville", "Une frontière"],
+          "reponse": 0
+        },
+        {
+          "question": "Les mobilités touristiques sont :",
+          "choix": ["Durables", "Temporaires", "Obligatoires"],
+          "reponse": 1
+        },
+        {
+          "question": "Un facteur d’attraction est :",
+          "choix": ["Une raison de partir", "Une raison d’arriver", "Une frontière"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "amenagement-territoire",
+      "titre": "Aménagement du territoire",
+      "questions": [
+        {
+          "question": "L’aménagement du territoire vise :",
+          "choix": ["À organiser l’espace", "À supprimer les villes", "À réduire la population"],
+          "reponse": 0
+        },
+        {
+          "question": "Un acteur de l’aménagement peut être :",
+          "choix": ["L’État", "Une entreprise", "Les deux"],
+          "reponse": 2
+        },
+        {
+          "question": "Un enjeu majeur est :",
+          "choix": ["La cohésion territoriale", "La disparition des campagnes", "La fermeture des services"],
+          "reponse": 0
+        },
+        {
+          "question": "Un territoire enclavé est :",
+          "choix": ["Bien connecté", "Mal connecté", "Très urbanisé"],
+          "reponse": 1
+        },
+        {
+          "question": "Un aménagement durable prend en compte :",
+          "choix": ["L’économie, le social et l’environnement", "L’économie uniquement", "L’environnement uniquement"],
+          "reponse": 0
+        }
+      ]
+    }
+
+  ]
+}

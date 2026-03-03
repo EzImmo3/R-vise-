@@ -1,0 +1,358 @@
+{
+  "matiere": "Informatique (NSI / SNT)",
+  "chapitres": [
+
+    {
+      "id": "algorithmique",
+      "titre": "Algorithmique (bases)",
+      "questions": [
+        {
+          "question": "Un algorithme est :",
+          "choix": ["Une suite d’instructions", "Un fichier audio", "Un langage de programmation"],
+          "reponse": 0
+        },
+        {
+          "question": "Un test conditionnel permet :",
+          "choix": ["De répéter une action", "De choisir entre deux actions", "D’arrêter un programme"],
+          "reponse": 1
+        },
+        {
+          "question": "Une variable sert à :",
+          "choix": ["Stocker une valeur", "Afficher du texte", "Créer un fichier"],
+          "reponse": 0
+        },
+        {
+          "question": "Un algorithme doit être :",
+          "choix": ["Ambigu", "Précis et fini", "Infini"],
+          "reponse": 1
+        },
+        {
+          "question": "Un bloc 'sinon' est utilisé dans :",
+          "choix": ["Une boucle", "Une condition", "Une fonction mathématique"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "python",
+      "titre": "Python (bases)",
+      "questions": [
+        {
+          "question": "Python est un langage :",
+          "choix": ["Compilé", "Interprété", "Incompréhensible"],
+          "reponse": 1
+        },
+        {
+          "question": "La fonction print() sert à :",
+          "choix": ["Afficher du texte", "Créer une variable", "Arrêter le programme"],
+          "reponse": 0
+        },
+        {
+          "question": "Le symbole == sert à :",
+          "choix": ["Affecter une valeur", "Comparer deux valeurs", "Créer une boucle"],
+          "reponse": 1
+        },
+        {
+          "question": "Une variable se crée avec :",
+          "choix": ["var x", "x = valeur", "let x"],
+          "reponse": 1
+        },
+        {
+          "question": "Le type int correspond à :",
+          "choix": ["Un nombre entier", "Un texte", "Un booléen"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "boucles-conditions",
+      "titre": "Boucles et conditions",
+      "questions": [
+        {
+          "question": "Une boucle for sert à :",
+          "choix": ["Répéter un nombre défini de fois", "Tester une condition", "Créer une fonction"],
+          "reponse": 0
+        },
+        {
+          "question": "Une boucle while s’exécute :",
+          "choix": ["Une seule fois", "Tant que la condition est vraie", "Jamais"],
+          "reponse": 1
+        },
+        {
+          "question": "Le mot-clé if permet :",
+          "choix": ["Une répétition", "Une condition", "Une importation"],
+          "reponse": 1
+        },
+        {
+          "question": "break permet :",
+          "choix": ["De quitter une boucle", "De créer une variable", "D’afficher un message"],
+          "reponse": 0
+        },
+        {
+          "question": "else est utilisé :",
+          "choix": ["Après un if", "Avant un while", "Dans un print"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "fonctions",
+      "titre": "Fonctions (définition, paramètres)",
+      "questions": [
+        {
+          "question": "Une fonction sert à :",
+          "choix": ["Répéter du code", "Stocker des fichiers", "Créer un ordinateur"],
+          "reponse": 0
+        },
+        {
+          "question": "def permet :",
+          "choix": ["De définir une fonction", "D’arrêter un programme", "D’importer un module"],
+          "reponse": 0
+        },
+        {
+          "question": "return sert à :",
+          "choix": ["Afficher un texte", "Renvoyer une valeur", "Créer une boucle"],
+          "reponse": 1
+        },
+        {
+          "question": "Un paramètre est :",
+          "choix": ["Une variable locale", "Une valeur passée à la fonction", "Une boucle"],
+          "reponse": 1
+        },
+        {
+          "question": "Une fonction sans return renvoie :",
+          "choix": ["0", "None", "True"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "listes",
+      "titre": "Listes et tableaux",
+      "questions": [
+        {
+          "question": "Une liste Python se note avec :",
+          "choix": ["{}", "[]", "()"],
+          "reponse": 1
+        },
+        {
+          "question": "len(liste) renvoie :",
+          "choix": ["La somme", "La longueur", "Le dernier élément"],
+          "reponse": 1
+        },
+        {
+          "question": "liste.append(x) permet :",
+          "choix": ["D’ajouter un élément", "De supprimer un élément", "De trier la liste"],
+          "reponse": 0
+        },
+        {
+          "question": "L’indice du premier élément est :",
+          "choix": ["0", "1", "-1"],
+          "reponse": 0
+        },
+        {
+          "question": "Une liste peut contenir :",
+          "choix": ["Un seul type", "Plusieurs types", "Uniquement des entiers"],
+          "reponse": 1
+        }
+      ]
+    },
+
+    {
+      "id": "donnees",
+      "titre": "Représentation de l’information (binaire)",
+      "questions": [
+        {
+          "question": "Un bit peut valoir :",
+          "choix": ["0 ou 1", "0 à 9", "A à Z"],
+          "reponse": 0
+        },
+        {
+          "question": "Un octet contient :",
+          "choix": ["4 bits", "8 bits", "16 bits"],
+          "reponse": 1
+        },
+        {
+          "question": "Le binaire est utilisé car :",
+          "choix": ["Les ordinateurs comprennent 0 et 1", "C’est plus joli", "C’est plus rapide à lire"],
+          "reponse": 0
+        },
+        {
+          "question": "ASCII permet de coder :",
+          "choix": ["Des images", "Des caractères", "Des vidéos"],
+          "reponse": 1
+        },
+        {
+          "question": "Une image numérique est composée de :",
+          "choix": ["Pixels", "Octets uniquement", "Lignes de texte"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "architecture",
+      "titre": "Architecture des ordinateurs",
+      "questions": [
+        {
+          "question": "Le processeur est :",
+          "choix": ["La mémoire", "L’unité de calcul", "Le stockage"],
+          "reponse": 1
+        },
+        {
+          "question": "La RAM est :",
+          "choix": ["Une mémoire volatile", "Un disque dur", "Une carte graphique"],
+          "reponse": 0
+        },
+        {
+          "question": "Le disque dur sert à :",
+          "choix": ["Stocker les données", "Calculer", "Afficher l’image"],
+          "reponse": 0
+        },
+        {
+          "question": "La carte mère :",
+          "choix": ["Relie tous les composants", "Stocke les fichiers", "Affiche les images"],
+          "reponse": 0
+        },
+        {
+          "question": "Un bus informatique transporte :",
+          "choix": ["Des données", "Des images", "Des virus"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "reseaux",
+      "titre": "Réseaux (IP, web, internet)",
+      "questions": [
+        {
+          "question": "Une adresse IP identifie :",
+          "choix": ["Un site web", "Un appareil sur un réseau", "Un fichier"],
+          "reponse": 1
+        },
+        {
+          "question": "HTTP est :",
+          "choix": ["Un protocole web", "Un langage", "Un virus"],
+          "reponse": 0
+        },
+        {
+          "question": "Un routeur sert à :",
+          "choix": ["Stocker des données", "Faire circuler les paquets", "Afficher des pages web"],
+          "reponse": 1
+        },
+        {
+          "question": "Le Wi-Fi est :",
+          "choix": ["Un câble", "Une connexion sans fil", "Un protocole de sécurité"],
+          "reponse": 1
+        },
+        {
+          "question": "DNS sert à :",
+          "choix": ["Convertir un nom de domaine en IP", "Créer des sites web", "Stocker des images"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "web",
+      "titre": "Web (HTML, CSS, JS)",
+      "questions": [
+        {
+          "question": "HTML sert à :",
+          "choix": ["Styliser", "Structurer une page", "Programmer un serveur"],
+          "reponse": 1
+        },
+        {
+          "question": "CSS sert à :",
+          "choix": ["La mise en forme", "La logique", "Le stockage"],
+          "reponse": 0
+        },
+        {
+          "question": "JavaScript sert à :",
+          "choix": ["Créer des interactions", "Styliser", "Stocker des données"],
+          "reponse": 0
+        },
+        {
+          "question": "Une balise <img> sert à :",
+          "choix": ["Afficher une image", "Afficher du texte", "Créer un lien"],
+          "reponse": 0
+        },
+        {
+          "question": "Une balise <a> sert à :",
+          "choix": ["Créer un lien", "Créer un tableau", "Créer une liste"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "donnees-structures",
+      "titre": "Données et structures (dictionnaires, tuples)",
+      "questions": [
+        {
+          "question": "Un dictionnaire Python utilise :",
+          "choix": ["Des clés et valeurs", "Des indices", "Des tuples uniquement"],
+          "reponse": 0
+        },
+        {
+          "question": "Un tuple est :",
+          "choix": ["Modifiable", "Non modifiable", "Une boucle"],
+          "reponse": 1
+        },
+        {
+          "question": "dico['clé'] permet :",
+          "choix": ["D’ajouter une clé", "D’accéder à une valeur", "De supprimer une clé"],
+          "reponse": 1
+        },
+        {
+          "question": "Un dictionnaire se note avec :",
+          "choix": ["[]", "{}", "()"],
+          "reponse": 1
+        },
+        {
+          "question": "Un tuple se note avec :",
+          "choix": ["()", "[]", "{}"],
+          "reponse": 0
+        }
+      ]
+    },
+
+    {
+      "id": "objets-connectes",
+      "titre": "Objets connectés",
+      "questions": [
+        {
+          "question": "Un objet connecté est :",
+          "choix": ["Un objet sans réseau", "Un objet relié à Internet", "Un robot"],
+          "reponse": 1
+        },
+        {
+          "question": "Un capteur mesure :",
+          "choix": ["Une donnée physique", "Une image", "Un texte"],
+          "reponse": 0
+        },
+        {
+          "question": "L’IoT signifie :",
+          "choix": ["Internet of Things", "Internet of Tools", "Inside of Technology"],
+          "reponse": 0
+        },
+        {
+          "question": "Un microcontrôleur sert à :",
+          "choix": ["Programmer un objet", "Afficher des vidéos", "Créer des sites web"],
+          "reponse": 0
+        },
+        {
+          "question": "Un actuateur permet :",
+          "choix": ["D’agir sur l’environnement", "De stocker des données", "De mesurer une température"],
+          "reponse": 0
+        }
+      ]
+    }
+
+  ]
+}
